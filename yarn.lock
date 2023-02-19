@@ -2983,12 +2983,12 @@ react-focus-lock@^2.9.2:
     use-callback-ref "^1.3.0"
     use-sidecar "^1.1.2"
 
-react-horizontal-scrolling-menu@^3.2.3:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/react-horizontal-scrolling-menu/-/react-horizontal-scrolling-menu-3.2.3.tgz#b98e555c533329e32283e5d0eaf403f65371ed1f"
-  integrity sha512-23uR9+/1mYgvOxpR5tx99F8fQmRrPOO4NsHeZJsMLQtsksZZ4sGFCWxxUMZMgFaLROHM/oKj4y3IHyFyHsUGXA==
+react-horizontal-scrolling-menu@^3.2.5:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/react-horizontal-scrolling-menu/-/react-horizontal-scrolling-menu-3.2.5.tgz#4fd614325a1662a4bc426ef21f126120354e1df6"
+  integrity sha512-KsYMcB3H++VBm2H+CuHbvO9GDtZualKYthRIume136i2GQfH5kn4FUgnGJUjwwlwqhg6zHVlJNsHYv3Bs1r6tw==
   dependencies:
-    smooth-scroll-into-view-if-needed "^1.1.32"
+    smooth-scroll-into-view-if-needed "~1.1"
 
 react-icons@^4.7.1:
   version "4.7.1"
@@ -3167,7 +3167,7 @@ slash@^4.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-4.0.0.tgz#2422372176c4c6c5addb5e2ada885af984b396a7"
   integrity sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==
 
-smooth-scroll-into-view-if-needed@^1.1.32:
+smooth-scroll-into-view-if-needed@~1.1:
   version "1.1.33"
   resolved "https://registry.yarnpkg.com/smooth-scroll-into-view-if-needed/-/smooth-scroll-into-view-if-needed-1.1.33.tgz#2c7b88c82784c69030cb0489b9df584e94e01533"
   integrity sha512-crS8NfAaoPrtVYOCMSAnO2vHRgUp22NiiDgEQ7YiaAy5xe2jmR19Jm+QdL8+97gO8ENd7PUyQIAQojJyIiyRHw==
