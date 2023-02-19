@@ -18,7 +18,10 @@ export const SearchFilters = () => {
         const values = getFilterValues(filterValues)
 
         values.forEach((item) => {
-            query[item.name] = item.value
+            if(item.value && filterValues?.[item.name]){
+                // To make sure we adding only the filters that are selected are the ones added to the search query
+                query[item.name] = item.value
+            }
         })
 
         router.push({pathname: path, query})
